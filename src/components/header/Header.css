@@ -1,0 +1,18 @@
+.app-header {
+    box-shadow: 0px 8px 8px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+}
+.app-header_logo_mark {
+    margin: 0 auto;
+    height: 48px;
+    width: 48px;
+}
+.app-header_logo_mark svg {
+    height: 48px;
+}
+.app-header_logo h4 {
+    margin: 0 auto;
+}

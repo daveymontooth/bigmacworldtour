@@ -1,0 +1,21 @@
+.app {
+  text-align: center;
+}
+.app-stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+.app-pane {
+  position: absolute;
+  left: -100%;
+  transition: all 0.25s ease-in-out;
+  width: 100vw;
+}
+.app-pane.active {
+  left: 0;
+}
